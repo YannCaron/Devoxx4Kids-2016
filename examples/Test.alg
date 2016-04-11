@@ -18,5 +18,9 @@ set actor = layer
 
 stage.onTouch((x, y) {
 	actor.move(x, y);
+	actor.keep();
 });
 
+stage.onUp(() {
+actor.release();
+});

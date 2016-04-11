@@ -1,7 +1,7 @@
-// Jumper by CyaNn & ALGEA
+"Brick/element_red_polygon_glossy"// Jumper by CyaNn & ALGEA
 include("lib/global");
 include("lib/debugLayer");
-
+"lgoid/Turtle"
 // variables
 set stage = game.createStage(0, -10);
 set gameLayer = stage.createLayer();

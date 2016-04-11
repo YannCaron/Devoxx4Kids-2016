@@ -90,7 +90,7 @@ stage.onTap((x, y) {
 });
 
 stage.onTouch((x, y) {
-	player.move(x, y);
+	player.move(x, y).keep();
 });
 
 stage.onUp((x, y) {
