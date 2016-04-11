@@ -1,0 +1,22 @@
+Algoid Language Game Engine Abstraction
+
+ALGEA présenté avec Thierry Chantier aka titi moby
+Atelier Mix-teen
+
+Objet : représentation dans un program informatique d'une entitée, de quelque chose.
+
+Les propriétés répondent à la question "qu'est ce qu'une voiture"
+
+Méthode répondent à la question
+
+-----------------
+
+Dans ALGEA tout est objet
+
+acteurs -> éléments graphiques manipulables (déplacer, tourner, appliquer une physique)
+
+ALGEA, l'acteur est l'élément principale d'un jeu.
+Presque fait tout un jeu qu'avec ça.
+
+Comment utiliser l'aide
+

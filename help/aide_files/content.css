@@ -1,0 +1,272 @@
+body {
+	font-size: 15px;
+	font-family: 'Century Gothic';
+}
+
+h1, h2, h3, h4 {
+	overflow: none;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:25px;
+}
+
+h1 {
+	/* color */
+	background-repeat: repeat-x;
+	background-image: url('../img/h1-background.jpg');
+	background-color: #373737;
+	border: 2px solid #bebebe;
+	color:white;
+	font-size: 28px;
+	font-family: 'Century Gothic';
+	
+	/* space */
+	margin-top:45px;
+	padding-left: 35px;
+	padding-top: 20px;
+	padding-bottom: 2px;
+}
+
+h2 {
+	/* color */
+	background-repeat: repeat-x;
+	background-image: url('../img/h2-background.jpg');
+	background-color: #009dd0;
+	border: 2px solid #009ed1;
+	color:white;
+	font-size: 22px;
+	font-family: 'Century Gothic';
+	
+	/* space */
+	margin-top:75px;
+	margin-bottom:50px;
+	padding-left: 35px;
+	padding-top: 15px;
+	padding-bottom: 2px;
+}
+
+h3 {
+	/* color */
+	background-color: #eaeaea;
+	border: 1px solid #cfcfcf;
+	color:black;
+	font-size: 19px;
+	font-family: 'Century Gothic';
+	
+	/* space */
+	margin-top:25px;
+	padding-left: 35px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+h4 {
+	/* color */
+	background-color: white;
+	border: 1px solid #cfcfcf;
+	color:black;
+	font-size: 17px;
+	font-family: Century Gothic;
+	
+	/* space */
+	margin-top:2px;
+	margin-bottom:2px;
+	padding-left: 35px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+p {
+	padding-left:70px;
+	padding-right:70px;
+	text-align:justify;
+	margin-bottom:25px;
+}
+
+p.ebnf {
+	font: 13px monospace;
+	margin-left:25px;
+	font-weight:bold;
+}
+
+.warning {
+	font-weight:bold;
+	color:#FF8800;
+}
+
+ul, ol.synopsis {
+	padding-left:70px;
+	padding-right:70px;
+	text-align:justify;
+	margin-bottom:25px;
+}
+
+ul, ol.synopsis {
+	list-style-type:none;
+}
+
+li:before {
+	content:"\002d \0020";
+}
+
+ul.code {
+	padding-left:0px;
+	padding-right:0px;
+	text-align:right;
+	margin-bottom:0px;
+}
+
+span.code {
+	padding-left:5px;
+	padding-right:5px;
+	background-color: #eaeaea;
+	font-family: 'Droid Sans Mono',Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+}
+
+ul.code li:before, ol.synopsis li:before {
+	content:"";
+}
+
+ol.synopsis {
+	list-style-type:none;
+	padding-left:70px;
+	font-size:20px;
+}
+
+ol.synopsis a, ol.synopsis a:visited, ol.synopsis a:active, ol.synopsis a:hover {
+	text-decoration:none;
+	font-size:17px;
+	color: #FF8800;
+}
+
+ol.synopsis  a:hover {
+	color:#505050;
+}
+
+a, a:visited, a:active, a:hover {
+	text-decoration:none;
+	color: #FF8800;
+}
+
+a:hover {
+	color:#505050;
+}
+
+a.download {
+	vertical-align:top;
+	margin-left: 25px;
+}
+
+a.keyword, a.keyword:visited, a.keyword:active {
+	text-decoration:none;
+	color: #505050;
+}
+
+a.keyword:hover {
+	text-decoration:none;
+	color:#FF8800;
+}
+
+div.slider {
+	margin-left : 100px;
+	margin-right : 100px;
+	height : 420px;
+	overflow-x : scroll;
+	overflow-y : auto;
+	border: 10px solid white;
+	box-shadow: 0px 7px 25px #777777;
+}
+
+div.slider-content {
+	height : 400px;
+	width : 3395px;;
+}
+
+div.slider iframe {
+	height : 400px;
+	float:left;
+}
+
+div.slider img {
+	height : 400px;
+	float:left;
+	margin-left: 20px;
+}
+
+table.standard {
+	border: 2px solid #0099CC;
+	border-collapse:collapse;
+	border-spacing:0px;
+	margin-left:90px;
+	margin-right:90px;
+	background-color: #F6F8FC;
+}
+
+table.standard th {
+	/* color */
+	background-repeat: repeat-x;
+	background-image: url('../img/th-background.jpg');
+	background-color: #0561a8;
+	border: 1px solid #0099CC;
+	color:white;
+	font-size: 20px;
+	font-family: Century Gothic;
+	
+	/* place */
+	padding:2px;
+}
+
+table.standard td {
+	padding:10px;
+}
+
+table.simple {
+	border: 2px solid #0099CC;
+	border-collapse:collapse;
+	border-spacing:0px;
+	margin-left:90px;
+	margin-right:90px;
+	background-color: #F6F8FC;
+}
+
+table.simple th {
+	/* color */
+	background-repeat: repeat-x;
+	background-color: #0099CC;
+	border: 1px solid #F6F8FC;
+	color:white;
+	text-align:center;
+}
+
+table.simple td {
+	padding:10px;
+	border: 1px solid #0099CC;
+}
+
+img.top {
+	position:relative;
+	top:-10px;
+	float:right;
+	padding-right:15px;
+}
+
+img.top a {
+	text-decoration:none;
+}
+
+iframe.movie, img.help, img.about {
+	display:block;
+	margin-top:15px;
+	margin-bottom:15px;
+	border: 10px solid white;
+	box-shadow: 0px 7px 25px #777777;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+img.help {
+	width:300px;
+}

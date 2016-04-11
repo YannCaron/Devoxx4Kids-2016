@@ -1,0 +1,136 @@
+body {
+	font:17px Century Gothic, Arial;
+		background-color:#f3f3f3;
+
+}
+
+div.header {
+	background:#000;
+	color:white;
+	background-repeat: repeat-x;
+	background-image: url('../img/header-background.gif');
+}
+
+div.catchword {
+	font: 28px Century Gothic;
+	color: #505050;
+	text-align:center;
+}
+
+div.menu-content {
+	text-align: right;
+	background-image: url('../img/tab.gif');
+}
+
+div.menu-content div {
+	padding-top:12px;
+	padding-right:35px;
+}
+
+div.main {
+	background-repeat: repeat-x;
+	/*background-image: url('../img/background-page.jpg');*/
+}
+
+div.scroll {
+	position:absolute;
+	width:100%;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+div.lang {
+	background:#f3f3f3;
+	moz-opacity:0.7;
+	webkit-opacity;0.7;
+	opacity:0.7;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottomleft-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-bottomright-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+}
+
+div.topLink {
+	background:#f3f3f3;
+	moz-opacity:0.7;
+	webkit-opacity;0.7;
+	opacity:0.7;
+	border-top-left-radius: 5px;
+	-moz-border-topleft-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottomleft-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+div.donate, div.share {
+	background:#f3f3f3;
+	moz-opacity:0.7;
+	webkit-opacity;0.7;
+	opacity:0.7;
+	border-top-left-radius: 5px;
+	-moz-border-topleft-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-bottomleft-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+
+div.copyright {
+	background:#f3f3f3;
+	moz-opacity:0.7;
+	webkit-opacity;0.7;
+	opacity:0.7;
+	border-top-left-radius: 5px;
+	-moz-border-topleft-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+}
+
+
+div.tablet {
+/*	opacity:0.5; */
+}
+
+div.lang {
+	font: 15px century gothic;
+}
+
+a.lang, a.lang:visited, a.lang:active, a.lang:hover {
+	text-decoration:none;
+	color: #FF8800;
+}
+
+a.lang:hover {
+	color:#505050;
+}
+
+a.title, a.title:visited, a.title:active, a.title:hover {
+	font-size: 40px;
+	text-decoration:none;
+	color: white;
+}
+
+a.title:hover {
+	color:#0099CC;
+}
+
+a.menu, a.menu:visited, a.menu:active, div.menu {
+	font-size:16px;
+	color: #8f8f8f;
+	text-decoration:none;
+}
+
+a.menu:hover {
+	color:#FF8800;
+	text-decoration:none;
+}
+div.top {
+	position:relative;
+	top:72px;
+	left:850px;
+}

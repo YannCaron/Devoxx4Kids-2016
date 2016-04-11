@@ -1,0 +1,204 @@
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+div.header {
+	position:absolute;
+	left:0px;
+	right:0px;
+	width:100%;
+	height:198px;
+	min-width:965px; /* TODO */
+}
+
+div.title {
+	position:absolute;
+	left:40px;
+	top:0px;
+}
+
+div.catchword {
+	position:absolute;
+	/*width:100%;*/
+	left:40px;
+	top:45px;
+}
+
+div.menu {
+	position:absolute;
+	top:0px;
+	left:50px;
+}
+
+div.menu-content {
+	position:absolute;
+	top:124px;
+	height:37px;
+	width:262px;
+}
+
+div.tab-features {
+	position:absolute;
+	top:4px;
+	left: 46px;
+	z-index:3;
+}
+
+div.tab-download {
+	position:absolute;
+	top:4px;
+	left: 246px;
+	z-index:2;
+}
+
+div.tab-contact {
+	position:absolute;
+	top:4px;
+	left: 356px;
+	z-index:1;
+}
+
+div.tab-help{
+	position:absolute;
+	top:37px;
+	left: 0px;
+	z-index:7;
+}
+
+div.tab-reference {
+	position:absolute;
+	top:37px;
+	left: 146px;
+	z-index:6;
+}
+
+div.tab-tutorials {
+	position:absolute;
+	top:37px;
+	left: 296px;
+	z-index:5;
+}
+
+div.tab-forum {
+	position:absolute;
+	top:37px;
+	left: 400px;
+	z-index:4;
+}
+
+
+div.logo {
+	position:absolute;
+	right:15px;
+	top:10px;
+	pointer-events:none;
+	background:none;
+}
+
+div.main {
+	position:absolute;
+	width:100%;
+	left:0px;
+	top:198px;
+	bottom:0px;
+}
+
+div.scroll {
+	position:absolute;
+	width:100%;
+	left:0px;
+	top:0px;
+	bottom:0px;
+	margin-bottom:25px;
+}
+
+div.content {
+	position:relative;
+	/*width: 875px; */
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:70px;
+	top:0px;
+	margin-left:auto; 
+	margin-right: auto; 
+}
+
+div.footer {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+}
+
+div.donate {
+	display:inline;
+	position:fixed;
+	right:0px;
+	bottom:100px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+div.topLink {
+	display:inline;
+	position:fixed;
+	right:0px;
+	bottom:225px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+div.share {
+	display:inline;
+	position:fixed;
+	right:0px;
+	bottom:40px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+div.lang {
+	display:relative;
+	position:fixed;
+	left:700px;
+	top:0px;
+	padding:5px;
+	z-index:10;
+}
+
+div.copyright {
+	display:inline;
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+div.tablet {
+	position:fixed;
+	left:30%;
+	bottom:-5px;
+}
+
+div.keywords {
+	padding-left:70px;
+	padding-right:70px;
+	text-align:left;
+	margin-bottom:25px;
+	-moz-column-count:4;
+	-webkit-column-count:4;
+	column-count:4;
+	-moz-column-gap:10;
+	-webkit-column-gap:10;
+	column-gap:10;
+}

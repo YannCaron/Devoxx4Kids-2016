@@ -1,0 +1,79 @@
+div.synhi-block, div.synhi-block-title, div.synhi-inline, div.synhi-inline-title {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+a.synhi-title, a.synhi-title:visited, a.synhi-title:active, a.synhi-title:hover {
+	text-decoration:none;
+	color: #FF8800;
+}
+
+a.synhi-title:hover {
+	color:#505050;
+}
+div.synhi-block {
+	background-color: #F6F8FC;
+	padding: 8px;
+	margin-left:70px;
+	margin-right:50px;
+	overflow: auto;
+	border: 2px solid #DEE5F0;
+}
+div.synhi-block-title {
+	background-color: white;
+	font: 17px Century Gothic;
+	color: #505050;
+	padding: 8px;
+	padding-left:20px;
+	padding-right:20px;
+	border: 1px solid #f0f0f0;
+}
+div.synhi-comment {
+	float: left; 
+}
+div.synhi-copy {
+	float: right; 
+}
+div.synhi-code {
+	padding:15px;
+	padding-left:55px;
+	font: 13px Century Gothic;
+}
+
+table.synhi-code {
+	width: 100%;
+}
+
+table.synhi-code th, table.synhi-code td {
+	padding:15px;
+	font: 13px monospace;
+	vertical-align:top;
+}
+table.synhi-code th {
+	border-right: 2px solid #DEE5F0
+}
+table.synhi-code li {
+	list-style-type: none;
+	text-align:right;
+}
+div.inline, div.synhi-inline, div.synhi-inline pre, div.synhi-inline-title, div.synhi-inline-text {
+	display:inline-block;
+}
+div.synhi-inline {
+	background-color: #F6F8FC;
+	padding: 4px;
+	margin-left:70px;
+	margin-right: 25px;
+	border: 2px solid #DEE5F0;
+}
+div.synhi-inline-title {
+	position:relative;
+	top:1px;
+	background-color: white;
+	font: 17px Century Gothic;
+	color: #505050;
+	margin-left:25px;
+	padding-left:20px;
+	padding-right:20px;
+	border: 1px solid #f0f0f0;
+}
