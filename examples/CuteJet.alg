@@ -19,15 +19,6 @@ include("CuteJet.include1");
 
 
 
-
-
-
-
-
-
-
-
-
 // -----------------------------------------------------------------------------
 // NE PAS MODIFIER LA PARTIE SUIVANTE DU CODE
 
