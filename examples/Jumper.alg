@@ -1,4 +1,4 @@
-"Brick/element_red_polygon_glossy"// Jumper by CyaNn & ALGEA
+// Jumper by CyaNn & ALGEA
 include("lib/global");
 include("lib/debugLayer");
 "lgoid/Turtle"
