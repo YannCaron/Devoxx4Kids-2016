@@ -12,7 +12,7 @@ set scoreLayer = stage.createLayer();
 
 include("CuteJet.include1");
 
-// On commence à partir d'ici **
+// On commence à partir d'ici
 // A NOUS DE JOUER
 // -----------------------------------------------------------------------------
 
