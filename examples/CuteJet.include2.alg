@@ -12,7 +12,7 @@ gameLayer.createWall(2, stage.getHeight() / 2, 4, stage.getHeight()).typeStatic(
 
 set wall = gameLayer.createWall(gameLayer.getWidth() + 5, stage.getHeight() / 2, 4, stage.getHeight()).typeStatic().hitSquare();
 wall.onContact( (wall, other) {
-	if (other.getName() == "PlanetCute/beetleship") {
+	if (other == hero) {
 		gameWin();
 	}
 });
